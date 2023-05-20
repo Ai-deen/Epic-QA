@@ -1,6 +1,10 @@
 # Epic-QA
 ## Information retrieval based project.
 
+### Data Link:
+https://bionlp.nlm.nih.gov/epic_qa/#collection
+https://drive.google.com/drive/folders/1uRNmVaipV2HoYNcMP6VA7Nc68wvaszD3?usp=sharing
+
 ### Description:
 EPIC-QA is a project made to answer questions about COVID-19 in a passage.
 There are two tasks: Task A provides expert-level answers to questions asked by
@@ -11,6 +15,9 @@ Encoder, and Doc2Vec, for ranking the documents and generating answers. These mo
 are used to calculate the similarity between the query and the sentences in the
 documents. The top 5 most relevant sentences are then extracted and merged into a
 paragraph to form the passage answer.
+
+### Task Link:
+https://bionlp.nlm.nih.gov/epic_qa/#objective
 
 ### Working:
 There are 2 ipynb files ->
