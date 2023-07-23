@@ -1,35 +1,38 @@
-# Epic-QA
-## Information retrieval based project.
+# EPIC-QA: COVID-19 Information Retrieval Project
 
-### Data Link:
-https://bionlp.nlm.nih.gov/epic_qa/#collection
+## Description
 
-https://drive.google.com/drive/folders/1uRNmVaipV2HoYNcMP6VA7Nc68wvaszD3?usp=sharing
+EPIC-QA is a project designed to answer questions about COVID-19 in passages. The project consists of two tasks: Task A provides expert-level answers for researchers, scientists, or clinicians, while Task B provides simpler, consumer-friendly answers for the general public. The objective is to make reliable information about COVID-19 more accessible and easily understandable.
 
-### Description:
-EPIC-QA is a project made to answer questions about COVID-19 in a passage.
-There are two tasks: Task A provides expert-level answers to questions asked by
-researchers, scientists, or clinicians, while Task B provides simpler, consumer-friendly
-answers for the general public. The goal is to make reliable information more accessible.
-The system uses several models, including TfidfVectorizer, BERT, Universal Sentence
-Encoder, and Doc2Vec, for ranking the documents and generating answers. These models
-are used to calculate the similarity between the query and the sentences in the
-documents. The top 5 most relevant sentences are then extracted and merged into a
-paragraph to form the passage answer.
+The system utilizes various models, including TfidfVectorizer, BERT, Universal Sentence Encoder, and Doc2Vec, to rank documents and generate answers. These models calculate the similarity between the query and sentences in the documents. The top 5 most relevant sentences are then extracted and merged into a paragraph to form the final passage answer.
 
-### Task Link:
-https://bionlp.nlm.nih.gov/epic_qa/#objective
+## Data and Task Link
 
-### Working:
-There are 2 ipynb files ->
-1. comsumer.ipynb - for documents and queries related to the consumer part
-2. expert.ipynb - for documents and queries related to the expert part
-Comments and results are already there in the files.
+- Data Link: [EPIC-QA Collection](https://bionlp.nlm.nih.gov/epic_qa/#collection)
+- Task Link: [EPIC-QA Objective](https://bionlp.nlm.nih.gov/epic_qa/#objective)
 
-### Conclusion:
-The system was able to extract satisfactory answers from these passages based on the input queries.
-Both Consumer and Expert Data sets were explored to extract answers as required.
-Overall, the project was successful in using different models to find and extract relevant
-information.
+## Files
 
+The project includes the following Jupyter Notebook files:
 
+1. `consumer.ipynb`: This notebook contains the code for handling documents and queries related to the consumer part of the EPIC-QA project.
+
+2. `expert.ipynb`: This notebook contains the code for handling documents and queries related to the expert part of the EPIC-QA project. Comments and results are already present in the files.
+
+## How to Use
+
+1. Clone the repository or download the necessary files from the provided Google Drive link.
+
+2. Install the required dependencies and libraries, including Jupyter Notebook.
+
+3. Open the Jupyter Notebook files (`consumer.ipynb` and `expert.ipynb`) using Jupyter Notebook.
+
+4. Run the code cells in the notebook to perform the information retrieval and answer generation tasks.
+
+## Conclusion
+
+The EPIC-QA project successfully extracts satisfactory answers from passages based on input queries. Both Consumer and Expert datasets have been explored to extract relevant answers as required. The implementation uses different models effectively to find and extract relevant information related to COVID-19.
+
+Feel free to explore the notebooks, analyze the results, and adapt the code for further improvements or specific use cases.
+
+For any questions or issues, refer to the provided documentation or reach out for assistance.
